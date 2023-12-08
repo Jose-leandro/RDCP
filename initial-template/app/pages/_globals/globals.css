@@ -10,6 +10,8 @@ html,
 body {
   margin: 0px;
   height: 100%;
+  background: #1a1b1c;
+  color: #c6c6c6;
 }
 
 /* a blue color as a generic focus style */

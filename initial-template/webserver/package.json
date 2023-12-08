@@ -10,6 +10,8 @@
   "author": "erickwendel",
   "license": "ISC",
   "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.7",
+    "@ffmpeg/util": "^0.12.1",
     "busboy": "^1.6.0",
     "pino": "^8.15.1",
     "pino-pretty": "^10.2.0"

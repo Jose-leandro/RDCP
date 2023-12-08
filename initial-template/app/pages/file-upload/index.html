@@ -1,104 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
-  <title>JSExpert Hub</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="img/logo.png" type="image/x-icon">
+  <title>RDCP - Redução de custos com processamento de dados</title>
   <link rel="stylesheet" href="./../_globals/globals.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <div class="desktop">
-    <div class="div">
-      <div class="overlap">
-        <div class="div-headerwrapper">
-          <div class="div-headercontainer">
-            <div class="div-logo-wrapper">
-              <div class="div-logo">
-                <img class="button-desktop" src="img/button-desktop-navigation.svg" />
-                <div class="group">
-                  <div class="frame">
-                    <a href="/pages/home">
-                      <div class="text-wrapper">JS Expert</div>
-                    </a>
-                    <div class="div-wrapper">
-                      <div class="text-wrapper-2">hub</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="form-fieldset-wrapper">
-              <div class="form-fieldset">
-                <div class="div-2">
-                  <div class="button-pesquisa">
-                    <img class="iconamoon-search" src="img/iconamoon-search-light-1.svg" />
-                    <div class="pseudo">
-                      <div class="icon"></div>
-                    </div>
-                  </div>
-                  <div class="label">
-                    <div class="input-search">
-                      <div class="div-placeholder">
-                        <div class="text-wrapper-3">Busca jsexperthub</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <img class="link" src="img/link.svg" />
-      </div>
-      <div class="frame-2">
-        <div class="frame-wrapper">
-          <div id="fileUploadWrapper" class="frame-3">
-            <div class="rectangle"></div>
-            <div class="group-2">
-              <div class="overlap-group">
-                <!-- input type=file only for mp4 hidden -->
-                <input type="file" id="fileUpload" class="hide" accept="video/mp4" />
-                <div id="btnUploadVideos" class="text-wrapper-4">Select Videos to Upload</div>
-              </div>
-              <img class="img" src="img/group-17-1.png" />
-            </div>
-          </div>
-        </div>
-        <div id="fileInfo" class="hide frame-4">
-          <!-- <div id="fileInfo" class="frame-4"> -->
-          <div class="frame-5">
-            <div id="fileName" class="text-wrapper-5">Video.mp4</div>
-            <div id="fileSize" class="text-wrapper-6">1.19 GB</div>
+  <header>
 
+    <img src="../home/img/menu.svg">
 
-            <canvas id="preview-144p"></canvas>
+    <a href="/pages/home">
+      <img src="../home/img/logo2.png" class="header__img">
+    </a>
 
-            <p class="p">
-              <span id="elapsed">Process started 0 secs ago</span> <br>
-            </p>
-          </div>
-          <div class="frame-6">
-            <div class="rectangle-3"></div>
-          </div>
-          <img class="line" src="img/line-1.svg" />
-        </div>
-
-      </div>
-
-      <div class="frame-7">
-        <div class="frame-8">
-          <div class="text-wrapper-7">JS Expert</div>
-          <div class="frame-9">
-            <div class="text-wrapper-2">hub</div>
-          </div>
-        </div>
-      </div>
+    <div>
+      <input type="text">
+      <img src="../home/img/lupa.svg" class="div__img">
     </div>
-  </div>
+    <a href="/pages/file-upload">
+      <img class="a__img" src="../home/img/upload-img-vid.svg">
+    </a>
 
-  <script src="https://cdn.jsdelivr.net/npm/mp4box@0.5.2/dist/mp4box.all.min.js"></script>
-  <script src="./src/app.js" type="module"></script>
+    <img src="../home/img/link.svg" alt="Icone do perfil de usuário">
+
+  </header>
+  <main>
+    <div>
+      <div class="video-selecao" id="fileUploadWrapper">
+        <img src="img/upload.png">
+        <input type="file" id="fileUpload" class="hide" accept="video/mp4" />
+        <label id="btnUploadVideos">selecione seu arquivo</label>
+      </div>
+
+      <div id="fileInfo" class="hide">
+        <div class="div__video-dados">
+
+          <div>
+            <h1 id="fileName">Video.mp4</h1>
+            <h2 id="fileSize">1.19 GB</h2>
+          </div>
+
+          <canvas id="preview-144p"></canvas>
+
+          <span id="elapsed">Process started 0 secs ago</span> <br>
+        </div>
+      </div>
+  </main>
+  <footer class="rodape">
+    <div class="logo">
+      <a href="/pages/home">
+        <img src="../home/img/logo2.png">
+      </a>
+    </div>
+
+    <div class="informacoes-adicionais">
+      <h2>Sobre nós</h2>
+      <ul>
+        <li>O que é RDCP</li>
+      </ul>
+    </div>
+
+    <div class="informacoes-adicionais">
+      <h2>Contato</h2>
+      <ul>
+        <li>Por Telefone</li>
+        <li>Por email</li>
+        <li>Whatsapp</li>
+        <li>E Mais</li>
+      </ul>
+    </div>
+
+    <div class="informacoes-adicionais">
+      <h2>Termos e políticas</h2>
+      <ul>
+
+        <li>Termos de uso</li>
+        <li>Polítca de privadicade</li>
+        <li>Política de cookies</li>
+      </ul>
+    </div>
+
+    <div class="informacoes-adicionais">
+      <h2>Direitos autorais</h2>
+      <ul>
+        <li>
+          <StyledA href="imagensAutorais.html">Uso de imagens e icones</StyledA>
+        </li>
+      </ul>
+    </div>
+
+    <div class="desenvolvedor">
+      <h3>&copy; Construido e desenvolvido por José leandro do nascimento</h3>
+    </div>
+    </div>
+  </footer>
 </body>
 
 </html>
+
+<!-- <script src="index.js" type="module"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/mp4box@0.5.2/dist/mp4box.all.min.js"></script>
+<script src="./src/app.js" type="module"></script>

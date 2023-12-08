@@ -129,3 +129,7 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+initial-template\app\pages\home\index.js
+initial-template\app\pages\home\img\seta-refazer.png
+initial-template\app\pages\home\img\seta-desfazer.png

@@ -128,3 +128,7 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+#imagems que serão utilizadas em futuramente em funcionalinades quando concluídas
+initial-template\app\pages\home\img\seta-refazer.png
+initial-template\app\pages\home\img\seta-desfazer.png
