@@ -5,6 +5,14 @@
 
  O RDCP é um sistema inovador para upload de vídeos sob demanda, que utiliza a tecnologia Web Streams. Seu principal objetivo é minimizar os custos de processamento de arquivos, aproveitando ao máximo as capacidades do navegador. Isso é alcançado através do uso de multithreading, uma técnica conhecida como Web Workers. Além disso, o sistema RDCP é capaz de gerenciar eficientemente o processamento de grandes volumes de dados.
 
+ ### Vídeo de Introdução
+
+ No vídeo a seguir, você encontrará uma descrição do primeiro contato que terá com o projeto.
+ 
+
+https://github.com/Jose-leandro/RDCP/assets/104599482/dc539faf-a32d-40c8-b1d8-be7140447bec
+
+
  ## Features implementadas
 
 - Video Uploader
