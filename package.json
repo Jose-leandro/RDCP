@@ -1,0 +1,14 @@
+{
+  "name": "rdcp",
+  "version": "1.0.0",
+  "description": "O RDCP é um sistema de upload de vídeos sob demanda, que utiliza a tecnologia Web Streams. Seu principal objetivo é minimizar os custos de processamento de arquivos, aproveitando ao máximo as capacidades do navegador. Isso é alcançado através do uso de multithreading, uma técnica conhecida como Web Workers.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx browser-sync --port 3001 -w",
+    "download-asserts": "node download.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

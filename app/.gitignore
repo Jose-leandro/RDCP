@@ -130,6 +130,5 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-initial-template\app\pages\home\index.js
-initial-template\app\pages\home\img\seta-refazer.png
-initial-template\app\pages\home\img\seta-desfazer.png
+assets\img\seta-refazer.png
+assets\img\seta-desfazer.png
