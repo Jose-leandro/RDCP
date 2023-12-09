@@ -41,7 +41,7 @@ https://github.com/Jose-leandro/RDCP/assets/104599482/dc539faf-a32d-40c8-b1d8-be
 
 ### Hospedagem do projeto
 
-Para dar vida ao meu projeto, escolhi a poderosa plataforma de hospedagem Vercel, Sinta-se à vontade para explorar cada detalhe e funcionalidade deste projeto clicando neste
+Para dar vida ao meu projeto, escolhi a poderosa plataforma de hospedagem Vercel, Sinta-se à vontade para explorar cada detalhe e funcionalidade deste projeto clicando neste [Link](https://jose-leandro.github.io/RDCP/)
 
 ### Tecnologias utilizadas no projeto
 
