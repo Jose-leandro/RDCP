@@ -13,7 +13,7 @@
 https://github.com/Jose-leandro/RDCP/assets/104599482/dc539faf-a32d-40c8-b1d8-be7140447bec
 
 
- ## Features implementadas
+ ### Features implementadas
 
 - Video Uploader
   - [x] - Processamento de videos em formato MP4 mesmo se não estiverem fragmentados
@@ -24,7 +24,7 @@ https://github.com/Jose-leandro/RDCP/assets/104599482/dc539faf-a32d-40c8-b1d8-be
 
 ### Features em desenvolvimento
 - [] - Processamento de imagem, não só de videos e áudios
-- [] - Encodar em 360p, 480, 720p e 1080
+- [] - Encodar em 360p, 480p, 720p e 1080p
 - [] - Fazer encoding/decoding track de áudio
 - [] - Fazer também upload de track de áudio
 - [] - Corrigir problema do Webm de não mostrar a duração do video
@@ -33,8 +33,8 @@ https://github.com/Jose-leandro/RDCP/assets/104599482/dc539faf-a32d-40c8-b1d8-be
 - [x] - Concatenar o arquivo final no servidor em um arquivo só
 
  ### Estado do projeto
- :construction: Projeto concluído :construction:
-
+ 
+    Projeto concluído 
     Versão do projeto - 0.0.1
     
    <p>Embora o projeto já esteja concluído, como desenvolvedor, continuo lançando novas versões. Meu objetivo é aprimorá-lo constantemente, corrigindo problemas existentes, introduzindo novas funcionalidades e refinando o design. Tudo isso para torná-lo ainda mais atraente, esteticamente agradável e funcional.</p>
@@ -49,9 +49,19 @@ Neste projeto, você encontrará uma sinfonia de tecnologias, sendo cada uma del
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)  ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)  ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) 
 
-## Running
-- Execute `npm ci` na pasta que contém o arquivo `package.json` para restaurar os pacotes
-- Execute `npm start` e em seguida vá para o seu navegador em [http://localhost:3000] para visualizar a página acima
+### Executando o projeto RDCP
+
+    # Faça o clone deste repositório
+
+    # Acesse a pasta do projeto no terminal/cmd
+
+    # Instale as dependências
+    $ No seu terminal/cmd execute `npm ci` na pasta que contém o arquivo `package.json` para restaurar os pacotes 
+
+    # Execute a aplicação 
+    $  No seu terminal/cmd execute `npm start` 
+
+    # O servidor inciará na porta:3000 -para visualizar acesse em seu navegador <http://localhost:3333> ou digite na barra de busca [http://localhost:3000]
 
 
 ### Contribuições
